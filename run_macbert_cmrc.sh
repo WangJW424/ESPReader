@@ -14,8 +14,8 @@ python run_cmrc.py \
     --max_seq_length 512 \
     --doc_stride 128 \
     --max_query_length=64 \
-    --per_gpu_train_batch_size=24 \
-    --per_gpu_eval_batch_size=24 \
+    --per_gpu_train_batch_size=3 \
+    --per_gpu_eval_batch_size=6 \
     --max_sentence_num=32  \
     --warmup_steps=0.1 \
     --ILF_rate 0.1 \
